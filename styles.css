@@ -1,0 +1,72 @@
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #bdf7ff;
+    color: black;
+    font-size: 10px;
+    padding: 10px 15px;
+    opacity: 20;
+    border: solid;
+  }
+.body1{
+    background-color: rgb(228, 248, 252);
+    border-style: solid;
+}
+
+.head1{
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+}
+.p1{
+    background-color: rgb(181, 226, 240);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+        font-family: 'Lucida Handwriting', cursive;
+}
+.p2{
+    background-color: lightgoldenrodyellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.p3{
+    background-color: rgb(253, 228, 232);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: 'Lucida Handwriting', cursive;
+}
